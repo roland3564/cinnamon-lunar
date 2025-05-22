@@ -19,7 +19,7 @@ def get_chinese_lunar_date():
     branch = earthly_branches[offset % 12]
     zodiac = chinese_zodiacs[offset % 12]
 
-    return f"{stem}-{branch} {zodiac}, {lunar.month}, {lunar.day}"
+    return f"Y: {stem}-{branch} {zodiac}, M: {lunar.month}, D: {lunar.day}"
 
 if __name__ == "__main__":
     print(get_chinese_lunar_date())
