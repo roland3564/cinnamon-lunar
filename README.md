@@ -1,5 +1,5 @@
-# cinnamon-maya
-Displays the mayan calendar on cinnamon's panel
+# cinnamon-lunar
+Displays the chinese lunar calendar on cinnamon's panel
 
 ![Showcase](https://i.ibb.co/JFwy15z1/Schermata-del-2025-05-22-21-06-43.png)
 
