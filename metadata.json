@@ -1,0 +1,10 @@
+{
+    "uuid": "chinese-lunar@n1",
+    "name": "Chinese Lunar Date",
+    "description": "Displays the Chinese lunar date in the panel.",
+    "version": "1.0",
+    "author": "n1",
+    "cinnamonVersion": ["4.0", "5.0"],
+    "max-instances": 1
+}
+
