@@ -42,7 +42,7 @@ class MyApplet extends Applet.TextApplet {
             this.set_applet_label("JS Error");
         }
 
-        // Refresh once per day (86400 seconds)
+        // Refresh once per 5 minutes (300 seconds)
         Mainloop.timeout_add_seconds(300, () => {
             this.refresh();
             return true;
