@@ -43,7 +43,7 @@ class MyApplet extends Applet.TextApplet {
         }
 
         // Refresh once per day (86400 seconds)
-        Mainloop.timeout_add_seconds(86400, () => {
+        Mainloop.timeout_add_seconds(300, () => {
             this.refresh();
             return true;
         });
@@ -53,4 +53,3 @@ class MyApplet extends Applet.TextApplet {
 function main(metadata, orientation, panelHeight, instanceId) {
     return new MyApplet(metadata, orientation, panelHeight, instanceId);
 }
-
